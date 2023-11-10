@@ -9,10 +9,10 @@ const FifthSection = () => {
     <React.Fragment>
       <section className="section fifth__sectionbg">
         <div className="container">
-          <h2 className="is-size-4">Our Products</h2>
+          <h2 className="is-size-4 is-size-6-mobile">Our Products</h2>
           <div className="columns">
             <div className="column">
-              <h1 className="is-size-2">Luxury Homes</h1>
+              <h1 className="is-size-2 is-size-4-mobile">Luxury Homes</h1>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Labore, ipsa. Lorem ipsum dolor sit, amet consectetur

@@ -9,7 +9,9 @@ const SixSection = () => {
         <div className="container">
           <div className="columns">
             <div className="column">
-              <h2 className="is-size-2 mt-5">Service Packages & Offers</h2>
+              <h2 className="is-size-2 is-size-4-mobile mt-5">
+                Service Packages & Offers
+              </h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
                 suscipit, ab explicabo quos excepturi voluptates ad illo totam

@@ -33,7 +33,7 @@ const Herosection = () => {
         />
         <div className="hero-body">
           <div className="container">
-            <h1 className="is-size-2">Your Hero Title</h1>
+            <h1 className="is-size-2 is-size-4-mobile">Your Hero Title</h1>
             <h2 className="subtitle">Your Hero Subtitle</h2>
           </div>
         </div>
