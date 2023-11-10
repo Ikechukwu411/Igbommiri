@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  color: black;
+}
+
+.button {
+  transition: all 0.2 ease;
+  font-family: "Open Sans", sans-serif;
+}
+.button:hover {
+  transform: scale(0.96);
+}

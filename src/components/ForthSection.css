@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+.scroller {
+  max-width: 100%;
+}
+
+.scroller__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gep: 1rem;
+}
+
+.scroller__inner img {
+  width: 100px;
+  margin-left: 30px;
+}
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    80deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(80deg, transparent, white 20%);
+}
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(-50%);
+  }
+}
+
+.ThirdSec_bg {
+  background-color: #f0f0f05c;
+}

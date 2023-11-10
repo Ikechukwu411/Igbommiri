@@ -1,0 +1,42 @@
+import React from "react";
+import "bulma/css/bulma.min.css";
+import "../components/FifthSection.css";
+import display1 from "../Images/hero2.jpeg";
+import display2 from "../Images/hero3.jpg";
+
+const FifthSection = () => {
+  return (
+    <React.Fragment>
+      <section className="section fifth__sectionbg">
+        <div className="container">
+          <h2 className="is-size-4">Our Products</h2>
+          <div className="columns">
+            <div className="column">
+              <h1 className="is-size-2">Luxury Homes</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Labore, ipsa. Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Labore, ipsa. Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Labore, ipsa. Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit. Labore, ipsa.
+              </p>
+              <button className="button mt-5">See All Products</button>
+            </div>
+            <div className="column">
+              <div className="columns">
+                <div className="column">
+                  <img src={display1} alt="" />
+                </div>
+                <div className="column">
+                  <img src={display2} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </React.Fragment>
+  );
+};
+
+export default FifthSection;

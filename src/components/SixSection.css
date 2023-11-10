@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+.sixthsection__bg {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(190, 185, 185, 0.781);
+  color: #01070f;
+}
+.sixthsection__bg .button {
+  color: #fff;
+  margin-top: 3rem;
+  background-color: #01070f;
+}
+.sixthsection__bg .button:hover {
+  background-color: #fff;
+  color: #01070f;
+}
