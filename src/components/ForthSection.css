@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-.scroller {
+/* .scroller {
   max-width: 100%;
 }
 
@@ -39,4 +39,34 @@
 
 .ThirdSec_bg {
   background-color: #f0f0f05c;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroller[data-animated="true"] .scroller__inner {
+    animation: none; /* Disable the animation */
+/* }
+} */
+*/ .scroller {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.scroller__inner {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: scroll 40s linear infinite;
+}
+
+.scroller__inner img {
+  width: 100px;
+  margin-left: 30px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
