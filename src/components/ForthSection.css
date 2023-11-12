@@ -54,6 +54,7 @@
 .scroller__inner {
   display: flex;
   flex-wrap: nowrap;
+  overflow: hidden;
   animation: scroll 40s linear infinite;
 }
 

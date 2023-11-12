@@ -1,5 +1,5 @@
 import React from "react";
-import IGBO from "../Images/GRAND.png";
+import IGBO from "../Images/igbo-removebg-preview.png";
 import "../components/LastSection.css";
 
 const LastSection = () => {
