@@ -1,7 +1,7 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
 import "../components/FifthSection.css";
-import display1 from "../Images/hero2.jpeg";
+import display1 from "../Images/Rail1.jpg";
 import display2 from "../Images/hero3.jpg";
 
 const FifthSection = () => {
@@ -12,7 +12,9 @@ const FifthSection = () => {
           <h2 className="is-size-4 is-size-6-mobile">Our Products</h2>
           <div className="columns">
             <div className="column">
-              <h1 className="is-size-2 is-size-4-mobile">Luxury Homes</h1>
+              <h1 className="is-size-2 is-size-4-mobile">
+                Fluted Panels Redefining <br></br>Excellence
+              </h1>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Labore, ipsa. Lorem ipsum dolor sit, amet consectetur
@@ -25,7 +27,7 @@ const FifthSection = () => {
             <div className="column">
               <div className="columns">
                 <div className="column">
-                  <img src={display1} alt="" />
+                  <img src={display1} alt="" width={250} />
                 </div>
                 <div className="column">
                   <img src={display2} alt="" />

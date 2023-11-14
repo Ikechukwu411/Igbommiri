@@ -18,12 +18,11 @@ const ThirdSection = () => {
           </div>
           <div className="column Engage has-text-centered">
             <h2 className="is-size-3 is-size-5-mobile">
-              Lorem ipsum dolor sit amet.
+              Fluted Panels: Sculpting Spaces with Elegance
             </h2>
             <p className="is-size-6-mobile">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              quibusdam vitae odio ad numquam iure exercitationem repellat
-              beatae inventore. Quia.
+              Fluted panels stand as the epitome of architectural finesse,
+              harmoniously blending form and function within interior design.
             </p>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>

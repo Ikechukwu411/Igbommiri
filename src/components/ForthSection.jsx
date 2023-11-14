@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import "../components/ForthSection.css";
 import ScrollImage1 from "../Images/Hero1.jpg";
-import ScrollImage2 from "../Images/hero2.jpeg";
-import ScrollImage3 from "../Images/hero3.jpg";
+import ScrollImage2 from "../Images/Rail1.jpg";
+import ScrollImage3 from "../Images/IG1.jpg";
 
 // const ForthSection = () => {
 //   useEffect(() => {

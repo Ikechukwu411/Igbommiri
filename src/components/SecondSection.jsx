@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "bulma/css/bulma.min.css";
 import "../components/SecondSection.css";
 import df from "../Images/hero2.jpeg";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import IG1 from "../Images/IG1.jpg";
+import IG2 from "../Images/IG2.jpg";
+import IG3 from "../Images/ig3.jpg";
 
 const SecondSection = () => {
   return (
@@ -10,56 +14,55 @@ const SecondSection = () => {
       <section className="section second__sec">
         <div className=" has-text-centered mb-6">
           <h2 className="is-size-3-desktop is-size-5-mobile">
-            Lorem, ipsum dolor sit amet consectetur
+            UV Marble Sheets Redefine Elegance
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-            obcaecati?
+            Highlighting their laminate construction and marble-like appearance.
           </p>
         </div>
         <div className="container">
           <div className="columns exhibition">
             <div className="column has-text-centered col">
               <figure>
-                <img src={df} />
+                <img src={IG1} width={200} />
                 <figcaption className="is-size-5 has-text-centered">
-                  Lorem ipsum dolor sit amet.
+                  UV marble sheets
                 </figcaption>
               </figure>
-              <button className="button is-outlined">
+              <Link to="/allproduct" className="button is-outlined">
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
                 </span>
-              </button>
+              </Link>
             </div>
             <div className="column has-text-centered col">
               <figure>
-                <img src={df} />
+                <img src={IG2} width={200} />
                 <figcaption className="is-size-5 has-text-centered">
-                  Lorem ipsum dolor sit amet.
+                  Faux Marble Sheets
                 </figcaption>
               </figure>
-              <button className="button is-outlined">
+              <Link to="/allproduct" className="button is-outlined">
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
                 </span>
-              </button>{" "}
+              </Link>{" "}
             </div>
             <div className="column has-text-centered col">
               <figure>
-                <img src={df} />
+                <img src={IG3} width={270} />
                 <figcaption className="is-size-5 has-text-centered">
-                  Lorem ipsum dolor sit amet.
+                  Marble-Textured Surfaces
                 </figcaption>
               </figure>
-              <button className="button is-outlined">
+              <Link to="/allproduct" className="button is-outlined">
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

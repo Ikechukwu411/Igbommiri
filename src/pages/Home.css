@@ -1,0 +1,11 @@
+.sec {
+  transform: translateX(400%);
+  transition: transform 0.6s ease;
+}
+
+.sec:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+.sec.show {
+  transform: translateX(0);
+}
