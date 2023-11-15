@@ -16,7 +16,7 @@ const ThirdSection = () => {
               </span>
             </button>
           </div>
-          <div className="column Engage has-text-centered">
+          {/* <div className="column Engage has-text-centered">
             <h2 className="is-size-3 is-size-5-mobile">
               Fluted Panels: Sculpting Spaces with Elegance
             </h2>
@@ -25,7 +25,7 @@ const ThirdSection = () => {
               harmoniously blending form and function within interior design.
             </p>
             <p>Lorem ipsum dolor sit amet.</p>
-          </div>
+          </div> */}
         </div>
       </section>
     </React.Fragment>

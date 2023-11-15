@@ -5,3 +5,23 @@
   background-color: rgba(245, 244, 244, 0.781);
   color: #01070f;
 }
+
+#img img {
+  width: 99%;
+  min-width: 50%;
+  height: 80%;
+  min-height: 30%;
+  object-fit: cover;
+}
+.carousel {
+  width: 99%;
+  min-width: 50%;
+  height: 80%;
+  min-height: 30%;
+  overflow: hidden;
+}
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}

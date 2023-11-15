@@ -7,32 +7,33 @@ import ForthSection from "../components/ForthSection";
 import FifthSection from "../components/FifthSection";
 import SixSection from "../components/SixSection";
 import LastSection from "../components/LastSection";
-import "../pages/Home.css";
+import Hero2 from "../components/Hero2";
+// import "../pages/Home.css";
 
 const Home = () => {
-  useEffect(() => {
-    const checkboxes = () => {
-      const boxes = document.querySelectorAll(".sec");
-      const height = (window.innerHeight / 5) * 4;
+  // useEffect(() => {
+  //   const checkboxes = () => {
+  //     const boxes = document.querySelectorAll(".sec");
+  //     const height = (window.innerHeight / 5) * 4;
 
-      boxes.forEach((box) => {
-        const boxtop = box.getBoundingClientRect().top;
+  //     boxes.forEach((box) => {
+  //       const boxtop = box.getBoundingClientRect().top;
 
-        if (boxtop < height) {
-          box.classList.add("show");
-        } else {
-          box.classList.remove("show");
-        }
-      });
-    };
+  //       if (boxtop < height) {
+  //         box.classList.add("show");
+  //       } else {
+  //         box.classList.remove("show");
+  //       }
+  //     });
+  //   };
 
-    window.addEventListener("scroll", checkboxes);
-    checkboxes();
+  //   window.addEventListener("scroll", checkboxes);
+  //   checkboxes();
 
-    return () => {
-      window.removeEventListener("scroll", checkboxes);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", checkboxes);
+  //   };
+  // }, []);
 
   return (
     <React.Fragment>
@@ -49,15 +50,13 @@ const Home = () => {
         <section className="sec">
           <ThirdSection />
         </section>
-        <section className="sec">
-          <ForthSection />
-        </section>
+        <section className="sec">{/* <Hero2 /> */}</section>
         <section className="sec">
           <FifthSection />
         </section>
-        <section className="sec">
+        {/* <section className="sec">
           <SixSection />
-        </section>
+        </section> */}
         <section className="sec">
           <LastSection />
         </section>
