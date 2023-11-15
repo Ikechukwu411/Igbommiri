@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "bulma/css/bulma.min.css";
 import "../components/SecondSection.css";
@@ -8,75 +8,56 @@ import IG1 from "../Images/IG1.jpg";
 import IG2 from "../Images/Rail1.jpg";
 import IG3 from "../Images/outdoor wpc deck tiles.jpg";
 import Gum from "../Images/Gum.png";
+import Product from "./Product";
+
+const products = [
+  {
+    name: "Uv Marble Sheets",
+    id: 1,
+    image: {
+      url: IG1,
+    },
+  },
+  {
+    name: "Fluted Panels",
+    id: 2,
+    image: {
+      url: IG2,
+    },
+  },
+  {
+    name: " Outdoor WPC Deck Tiles",
+    id: 3,
+    image: {
+      url: IG3,
+    },
+  },
+  {
+    name: "Silicone Adhersive Gel",
+    id: 4,
+    image: {
+      url: Gum,
+    },
+  },
+];
 
 const SecondSection = () => {
+  const [data, setData] = useState(products);
   return (
     <React.Fragment>
       <section className="section second__sec">
         <div className=" has-text-centered mb-6">
           <h2 className="is-size-3-desktop is-size-5-mobile">Our Products </h2>
-          {/* <p>
-            Highlighting their laminate construction and marble-like appearance.
-          </p> */}
         </div>
         <div className="container">
-          <div className="columns exhibition">
-            <div className="column has-text-centered col">
-              <figure>
-                <img src={IG1} width={250} />
-                <figcaption className="is-size-5 has-text-centered">
-                  UV Marble sheets
-                </figcaption>
-              </figure>
-              <Link to="/allproduct" className="button is-outlined">
-                Shop Now{" "}
-                <span className="ml-2 mt-1">
-                  <AiOutlineArrowRight />
-                </span>
-              </Link>
-            </div>
-            <div className="column has-text-centered col">
-              <figure>
-                <img src={IG2} width={300} />
-                <figcaption className="is-size-5 has-text-centered">
-                  Fluted Panels
-                </figcaption>
-              </figure>
-              <Link to="/allproduct" className="button is-outlined">
-                Shop Now{" "}
-                <span className="ml-2 mt-1">
-                  <AiOutlineArrowRight />
-                </span>
-              </Link>{" "}
-            </div>
-            <div className="column has-text-centered col">
-              <figure>
-                <img src={Gum} width={270} />
-                <figcaption className="is-size-5 has-text-centered">
-                  Silicone Adhersive Gel
-                </figcaption>
-              </figure>
-              <Link to="/allproduct" className="button is-outlined">
-                Shop Now{" "}
-                <span className="ml-2 mt-1">
-                  <AiOutlineArrowRight />
-                </span>
-              </Link>
-            </div>
-            <div className="column has-text-centered col">
-              <figure>
-                <img src={IG3} width={270} />
-                <figcaption className="is-size-5 has-text-centered">
-                  Outdoor WPC Deck Tiles
-                </figcaption>
-              </figure>
-              <Link to="/allproduct" className="button is-outlined">
-                Shop Now{" "}
-                <span className="ml-2 mt-1">
-                  <AiOutlineArrowRight />
-                </span>
-              </Link>
-            </div>
+          <div className="columns">
+            {data.map((product) => {
+              return (
+                <div key={product.id} className="column">
+                  <Product {...product} />
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

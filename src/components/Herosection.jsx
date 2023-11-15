@@ -5,7 +5,7 @@ import image1 from "../Images/Hero1.jpg";
 import image2 from "../Images/hero2.jpeg";
 import image3 from "../Images/hero3.jpg";
 import image4 from "../Images/Hero4.jpg";
-import Logo from "../Images/IGBOLOGO.jpg";
+import Logo from "../Images/IGBOMM-removebg-preview.png";
 
 const images = [image1, image2, image3, image4];
 
@@ -34,7 +34,7 @@ const Herosection = () => {
         />
         <div className="hero-body">
           <div className="container">
-            <img src={Logo} alt="" width={100} />
+            <img src={Logo} alt="" width={350} />
           </div>
         </div>
       </section>

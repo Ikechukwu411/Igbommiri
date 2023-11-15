@@ -13,6 +13,7 @@ const LastSection = () => {
         <div className="columns">
           <div className="column">
             <img src={IGBO} alt="" />
+
             <p>&copy; 2023 Your Company Name. All rights reserved.</p>
           </div>
           <div className="column">
@@ -36,7 +37,12 @@ const LastSection = () => {
             <h3 className="has-text-weight-bold">Company</h3>
             <ul>
               <li>
-                <Link to="/allproduct">Okota, Lagos</Link>
+                <p>
+                  Igbommiri Global Resources Better Way And Beyond Standard.
+                  <br></br> No. 1 Aih Majidat Alatishe Str. Okota, Lagos{" "}
+                  <br></br> +234 814 737 4095 <br></br>Email:
+                  igbommiriglobalresources@gmail.com
+                </p>
               </li>
             </ul>
           </div>

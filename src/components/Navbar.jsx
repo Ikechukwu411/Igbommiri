@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "bulma/css/bulma.min.css";
-import IgboMmiri from "../Images/igbo.png";
+import IgboMmiri from "../Images/Logo.png";
 import "../components/Navbar.css";
 
 const Navbar = () => {
@@ -12,7 +12,8 @@ const Navbar = () => {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
-              <img src={IgboMmiri} />
+              <p>IGBOMMIRI</p>
+              <img src={IgboMmiri} alt="" />
             </Link>
 
             <a
