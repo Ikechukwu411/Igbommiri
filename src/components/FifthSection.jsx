@@ -49,7 +49,7 @@ const FifthSection = () => {
           <h2 className="is-size-4 is-size-6-mobile">Delivery (Nationwide)</h2>
           <div className="columns">
             <div className="column">
-              <h1 className="is-size-2 is-size-4-mobile">
+              <h1 className="is-size-2 is-size-4-mobile has-text-weight-bold">
                 Swift, Safe, and Straight to You!
               </h1>
               <p>

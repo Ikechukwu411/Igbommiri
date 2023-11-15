@@ -102,7 +102,7 @@ const AnotherProduct = () => {
                     Back Home
                   </Link>
                   <Link
-                    className="button has-text-weight-bold"
+                    className="button has-text-weight-bold is-responsive"
                     style={{ color: "#01070f" }}
                   >
                     Shop Now
