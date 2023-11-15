@@ -15,7 +15,7 @@ const Product = ({ name, id, image }) => {
       >
         <img src={image.url} alt="" />
         <h1 className="has-text-weight-bold">{name}</h1>
-        <Link to={`/product/${id}`} className="button">
+        <Link to={`/product/${id}`} className="button is-responsive">
           Shop Now <AiOutlineArrowRight />
         </Link>
       </article>

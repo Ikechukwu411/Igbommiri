@@ -1,28 +1,44 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import "bulma/css/bulma.min.css";
 import "../components/FifthSection.css";
-import display1 from "../Images/Rail1.jpg";
-import display2 from "../Images/hero3.jpg";
+import display1 from "../Images/Package1.jpg";
+import display2 from "../Images/package2.jpg";
 import display3 from "../Images/Nationwide-removebg-preview.png";
 import display4 from "../Images/cargo2.jpg";
 import display5 from "../Images/cargo3.jpg";
 
 const FifthSection = () => {
-  const imgRef = useRef(null);
-  let idx = 0;
-
   useEffect(() => {
-    const img = imgRef.current;
-    const images = [display1, display2, display3, display4, display5];
-    const imgsLength = images.length;
+    const img = document.getElementById("img");
+    const imgs = document.querySelectorAll("#img img");
+    let idx = 0;
+    const screenWidthThreshold = 769;
+    let translateXValue = window.innerWidth <= screenWidthThreshold ? 300 : 500;
+    console.log(window.innerWidth);
+    let intervalId = setInterval(run, 2000);
+    function run() {
+      idx++;
+      changeImage();
+    }
+    function changeImage() {
+      if (idx > imgs.length - 1) {
+        idx = 0;
+      } else if (idx < 0) {
+        idx = imgs.length - 1;
+      }
+      img.style.transform = `translateX(${-idx * translateXValue}px)`;
+    }
 
-    const interval = setInterval(() => {
-      idx = (idx + 1) % imgsLength;
-      img.style.transform = `translateX(${-idx * 500}px)`;
-    }, 2000);
-
+    window.addEventListener("resize", () => {
+      const newTranslateXValue =
+        window.innerWidth <= screenWidthThreshold ? 300 : 500;
+      if (newTranslateXValue !== translateXValue) {
+        translateXValue = newTranslateXValue;
+        changeImage(); // Update the image position when the screen size changes
+      }
+    });
     return () => {
-      clearInterval(interval);
+      clearInterval(intervalId);
     };
   }, []);
 
@@ -30,7 +46,7 @@ const FifthSection = () => {
     <React.Fragment>
       <section className="section fifth__sectionbg">
         <div className="container">
-          <h2 className="is-size-4 is-size-6-mobile">Delivery</h2>
+          <h2 className="is-size-4 is-size-6-mobile">Delivery (Nationwide)</h2>
           <div className="columns">
             <div className="column">
               <h1 className="is-size-2 is-size-4-mobile">
@@ -45,15 +61,15 @@ const FifthSection = () => {
             </div>
             <div className="column">
               <div className="carousel">
-                <div className="image-container" id="img" ref={imgRef}>
-                  {/* <img src={display1} alt="" width={800} />
-                  <img src={display2} alt="" width={100} /> */}
-                  <img src={display3} alt="" width={100} />
-                  {/* <img src={display4} alt="" width={100} />
-                  <img src={display5} alt="" width={100} />
-                  <img src={display1} alt="" width={800} />
-                  <img src={display2} alt="" width={100} />
-                  <img src={display3} alt="" width={100} /> */}
+                <div className="image-container" id="img">
+                  <img src={display1} alt="" />
+                  <img src={display2} alt="" />
+                  <img src={display3} alt="" />
+                  <img src={display4} alt="" />
+                  <img src={display5} alt="" />
+                  <img src={display1} alt="" />
+                  <img src={display2} alt="" />
+                  <img src={display3} alt="" />
                 </div>
               </div>
             </div>

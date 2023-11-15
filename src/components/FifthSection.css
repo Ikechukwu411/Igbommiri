@@ -1,27 +1,36 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
 .fifth__sectionbg {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: rgba(245, 244, 244, 0.781);
   color: #01070f;
+  letter-spacing: 0.2px;
 }
 
 #img img {
-  width: 99%;
-  min-width: 50%;
-  height: 80%;
-  min-height: 30%;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
 }
 .carousel {
-  width: 99%;
-  min-width: 50%;
-  height: 80%;
-  min-height: 30%;
+  height: 530px;
+  width: 500px;
   overflow: hidden;
 }
 .image-container {
   display: flex;
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 769px) {
+  #img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .carousel {
+    height: 330px;
+    width: 300px;
+  }
 }

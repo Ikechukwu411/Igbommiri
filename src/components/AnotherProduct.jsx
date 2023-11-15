@@ -94,15 +94,24 @@ const AnotherProduct = () => {
                 </h4>
                 <p className="is-size-5-desktop">{name.des}</p>
                 <div className="mt-3">
-                  <Link to="/" className="button mr-2">
+                  <Link
+                    to="/"
+                    className="button has-text-weight-bold mr-2 is-responsive"
+                    style={{ color: "#01070f" }}
+                  >
                     Back Home
                   </Link>
-                  <button className="button">Shop Now</button>
+                  <Link
+                    className="button has-text-weight-bold"
+                    style={{ color: "#01070f" }}
+                  >
+                    Shop Now
+                  </Link>
                 </div>
-                <h2 className="is-size-4-desktop is-size-6-mobile">
+                <h2 className="is-size-4-desktop is-size-6-mobile mt-4">
                   Other Colors
                 </h2>
-                <div className="columns is-mobile mt-4">
+                <div className="columns is-mobile m2-4">
                   <div className="column">
                     <img src={products[id - 1].addmin[0]} alt="" width={100} />
                   </div>

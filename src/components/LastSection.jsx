@@ -1,5 +1,5 @@
 import React from "react";
-import IGBO from "../Images/igbo-removebg-preview.png";
+import IGBO from "../Images/Logo.png";
 import "../components/LastSection.css";
 import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
@@ -12,7 +12,14 @@ const LastSection = () => {
       <footer className="footer">
         <div className="columns">
           <div className="column">
-            <img src={IGBO} alt="" />
+            <Link
+              to="/"
+              className="navbar-item has-text-weight-bold"
+              style={{ color: "#01070f" }}
+            >
+              <p className="">IGBOMMIRI GLOBAL RESOURCES</p>
+              <img src={IGBO} alt="" />
+            </Link>
 
             <p>&copy; 2023 Your Company Name. All rights reserved.</p>
           </div>
@@ -50,13 +57,19 @@ const LastSection = () => {
             <h3 className="has-text-weight-bold">Socials</h3>
             <ul>
               <li>
-                <FaFacebook />
+                <Link to="https://web.facebook.com/people/IgboMmiri-Global-Resources/100089533705424/">
+                  <FaFacebook />
+                </Link>
               </li>
               <li>
-                <FaWhatsappSquare />.
+                <Link>
+                  <FaWhatsappSquare />
+                </Link>
               </li>
               <li>
-                <FaInstagramSquare />
+                <Link to="https://www.instagram.com/igbommiri_global_resources/?hl=en">
+                  <FaInstagramSquare />
+                </Link>
               </li>
             </ul>
           </div>

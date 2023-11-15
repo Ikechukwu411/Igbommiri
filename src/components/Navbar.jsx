@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" style={{ color: "#01070f" }}>
-              <p>IGBOMMIRI</p>
+              <p className="is-size-6-mobile">IGBOMMIRI GLOBAL RESOURCES</p>
               <img src={IgboMmiri} alt="" />
             </Link>
 
