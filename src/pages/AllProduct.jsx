@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 // import image2 from "../Images/Rail1.jpg";
+import "../components/SixSection.css";
 import product1 from "../Images/product1.jpg";
 import product2 from "../Images/product2.jpg";
 import product3 from "../Images/product3.jpg";
@@ -23,7 +24,7 @@ const AllProduct = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <section className="section">
+      <section className="section sixthsection__bg">
         <div className="container">
           <h2 className="is-size-2 has-text-centered mt-5 mb-5">
             All Products
@@ -120,10 +121,7 @@ const AllProduct = () => {
                   Fluted Panels
                 </figcaption>
               </figure>
-              <Link
-                to="https://wa.me/2347034483661"
-                className="button is-responsive is-outlined"
-              >
+              <Link to="" className="button is-responsive is-outlined">
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />

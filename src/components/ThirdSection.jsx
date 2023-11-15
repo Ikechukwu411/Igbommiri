@@ -2,6 +2,7 @@ import React from "react";
 import "bulma/css/bulma.min.css";
 import "../components/ThirdSection.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const ThirdSection = () => {
   return (
@@ -9,12 +10,12 @@ const ThirdSection = () => {
       <section className="section ThirdSection_bg">
         <div className="columns">
           <div className="column">
-            <button className="button p-5 is-responsive">
+            <Link to="/allproduct" className="button p-5 is-responsive">
               <span>See More</span>
               <span>
                 <AiOutlineArrowRight size={20} />
               </span>
-            </button>
+            </Link>
           </div>
           {/* <div className="column Engage has-text-centered">
             <h2 className="is-size-3 is-size-5-mobile">

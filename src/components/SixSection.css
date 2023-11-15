@@ -2,12 +2,12 @@
 
 .sixthsection__bg {
   font-family: "Roboto", sans-serif;
-  background-color: rgba(190, 185, 185, 0.781);
+  background-color: rgb(255, 255, 255);
   color: #01070f;
 }
 .sixthsection__bg .button {
   color: #fff;
-  margin-top: 3rem;
+
   background-color: #01070f;
 }
 .sixthsection__bg .button:hover {
