@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
 nav {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 550;
-  color: black;
+  color: #01070f;
+}
+nav ul {
+  color: #01070f;
 }
 
 .button {
   transition: all 0.2 ease;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .button:hover {
   transform: scale(0.96);

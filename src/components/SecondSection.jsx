@@ -47,7 +47,9 @@ const SecondSection = () => {
     <React.Fragment>
       <section className="section second__sec">
         <div className=" has-text-centered mb-6">
-          <h2 className="is-size-3-desktop is-size-5-mobile">Our Products </h2>
+          <h2 className="is-size-3-desktop is-size-5-mobile has-text-weight-bold">
+            Our Products{" "}
+          </h2>
         </div>
         <div className="container">
           <div className="columns">

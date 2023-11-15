@@ -11,7 +11,7 @@ const Navbar = () => {
       <nav className="navbar has-shadow  is-fixed-top">
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item">
+            <Link to="/" className="navbar-item" style={{ color: "#01070f" }}>
               <p>IGBOMMIRI</p>
               <img src={IgboMmiri} alt="" />
             </Link>
@@ -30,16 +30,28 @@ const Navbar = () => {
           </div>
           <div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
             <div className="navbar-end">
-              <Link to="/" className="navbar-item">
+              <Link to="/" className="navbar-item" style={{ color: "#01070f" }}>
                 Home
               </Link>
-              <Link to="/about" className="navbar-item">
+              <Link
+                to="/about"
+                className="navbar-item"
+                style={{ color: "#01070f" }}
+              >
                 About
               </Link>
-              <Link to="/contact" className="navbar-item">
+              <Link
+                to="/contact"
+                className="navbar-item"
+                style={{ color: "#01070f" }}
+              >
                 Contact
               </Link>
-              <Link to="/allproduct" className="navbar-item">
+              <Link
+                to="/allproduct"
+                className="navbar-item"
+                style={{ color: "#01070f" }}
+              >
                 AllProduct
               </Link>
             </div>
