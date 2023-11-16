@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 import "bulma/css/bulma.min.css";
 import "../components/SecondSection.css";
 import df from "../Images/hero2.jpeg";
-import { AiOutlineArrowRight } from "react-icons/ai";
+// import { AiOutlineArrowRight } from "react-icons/ai";
 import IG1 from "../Images/IG1.jpg";
 import IG2 from "../Images/Rail1.jpg";
 import IG3 from "../Images/outdoor wpc deck tiles.jpg";
 import Gum from "../Images/Gum.png";
+import IG5 from "../Images/mirror board1.jpg";
+import IG6 from "../Images/stonepanel2.jpg";
+import IG7 from "../Images/UV marble sheet.jpg";
 import Product from "./Product";
 
 const products = [
@@ -37,6 +40,27 @@ const products = [
     id: 4,
     image: {
       url: Gum,
+    },
+  },
+  {
+    name: "Carbon Crystal Mirror Board",
+    id: 5,
+    image: {
+      url: IG5,
+    },
+  },
+  {
+    name: "Stone Panel",
+    id: 6,
+    image: {
+      url: IG6,
+    },
+  },
+  {
+    name: "UV Matt Sheet",
+    id: 7,
+    image: {
+      url: IG7,
     },
   },
 ];

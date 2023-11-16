@@ -6,6 +6,9 @@ import IG1 from "../Images/IG1.jpg";
 import IG2 from "../Images/Rail1.jpg";
 import IG3 from "../Images/outdoor wpc deck tiles.jpg";
 import IG4 from "../Images/Gum.png";
+import IG5 from "../Images/mirror board1.jpg";
+import IG6 from "../Images/stonepanel2.jpg";
+import IG7 from "../Images/UV marble sheet.jpg";
 import Product1 from "../Images/product1.jpg";
 import Product2 from "../Images/product2.jpg";
 import Product3 from "../Images/product3.jpg";
@@ -18,6 +21,9 @@ import Deck1 from "../Images/Deck1.jpg";
 import Deck2 from "../Images/Deck2.jpg";
 import Deck3 from "../Images/Deck3.jpg";
 import Deck4 from "../Images/Deck4.jpg";
+import mirror from "../Images/mirrorboard2.jpg";
+import stone from "../Images/StonePanel.jpeg";
+import matt from "../Images/UV Matt sheet.png";
 import { Link, useParams } from "react-router-dom";
 
 const products = [
@@ -57,6 +63,36 @@ const products = [
     des: `Silicone adhesive gel is a versatile and high-performance bonding agent 
     known for its strong adhesion properties across a wide range of surfaces. Formulated from silicone-based compounds,
      this adhesive gel is designed to create durable bonds in various applications, offering numerous advantages`,
+  },
+  {
+    name: "Carbon Crystal Mirror Board",
+    id: 5,
+    image: IG5,
+    addmin: [mirror, mirror, mirror, mirror],
+    des: `The Carbon Crystal Mirror Board is an 
+    innovative blend of sleek design and cutting-edge technology. Crafted with precision using carbon crystal material,
+     this mirror board stands out for its remarkable clarity and reflective properties.`,
+  },
+  {
+    name: "Stone Panel",
+    id: 6,
+    image: IG6,
+    addmin: [stone, stone, stone, stone],
+    des: `Stone Panel epitomizes the fusion of nature's raw beauty 
+    and modern craftsmanship. Crafted from authentic stone, each panel showcases 
+    unique textures and earthy hues, bringing the outdoors inside with its organic appeal. 
+    Beyond its aesthetic charm, these panels offer durability and versatility, 
+    suitable for various applications from accent walls to architectural features.`,
+  },
+  {
+    name: "UV Matt Sheet",
+    id: 7,
+    image: IG7,
+    addmin: [matt, matt, matt, matt],
+    des: `UV Matt Sheet redefines the standards of protection and aesthetics. 
+    Engineered with UV-resistant materials and a matte finish, this sheet offers 
+    unparalleled durability while maintaining a sleek, refined appearance. Its UV-resistant properties ensure longevity,
+     making it an ideal choice for both indoor and outdoor applications.`,
   },
 ];
 
@@ -124,6 +160,15 @@ const AnotherProduct = () => {
                   </div>
                   <div className="column">
                     <img src={products[id - 1].addmin[3]} alt="" width={100} />
+                  </div>
+                  <div className="column">
+                    <img src={products[id - 1].addmin[4]} alt="" width={100} />
+                  </div>
+                  <div className="column">
+                    <img src={products[id - 1].addmin[5]} alt="" width={100} />
+                  </div>
+                  <div className="column">
+                    <img src={products[id - 1].addmin[6]} alt="" width={100} />
                   </div>
                 </div>
               </div>

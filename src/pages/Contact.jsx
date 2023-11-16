@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import LastSection from "../components/LastSection";
 import { BiCurrentLocation } from "react-icons/bi";
+import contact from "../Images/contact.jpg";
 import "../../src/App.css";
 
 const Contact = () => {
@@ -17,63 +18,30 @@ const Contact = () => {
               </p>
               <h2 className="is-size-2">Get In Touch With Us</h2>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit,
-                laudantium?
+                We are here to bring your visions to life. Reach out to our
+                dedicated team for expert advice, personalized solutions, or any
+                inquiries. Let us collaborate and transform your ideas into
+                reality.
               </p>
               <div className="mt-3">
                 <span className="mr-3">{<BiCurrentLocation size={20} />}</span>
                 <span className="is-size-4">Location</span>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci perferendis maiores beatae, vitae ullam provident?
-                </p>
+                <p>No. 1 Aih Majidat Alatishe Str. Okota, Lagos</p>
               </div>
               <div className="mt-3">
                 <span className="mr-3">{<BiCurrentLocation size={20} />}</span>
                 <span className="is-size-4">Phone Number</span>
-                <p>123456799</p>
+                <p>+234 814 737 4095</p>
               </div>
               <div className="mt-3">
                 <span className="mr-3">{<BiCurrentLocation size={20} />}</span>
                 <span className="is-size-4">Email Address</span>
-                <p>1234@gmial.com</p>
+                <p>igbommiriglobalresources@gmail.com</p>
               </div>
             </div>
 
             <div className="column box mt-6">
-              <form action="" className="form">
-                <div className="field">
-                  <label className="label">Name</label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type="text"
-                      placeholder="Text input"
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label">Email</label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type="text"
-                      placeholder="Text input"
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <label className="label">Phone</label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type="text"
-                      placeholder="Text input"
-                    />
-                  </div>
-                </div>
-                <input type="submit" className="button is-primary" />
-              </form>
+              <img src={contact} alt="" />
             </div>
           </div>
         </div>
