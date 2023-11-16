@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+.aboutsect {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(245, 244, 244, 0.781);
+  color: #01070f;
+}

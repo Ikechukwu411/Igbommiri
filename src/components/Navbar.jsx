@@ -11,12 +11,8 @@ const Navbar = () => {
       <nav className="navbar has-shadow  is-fixed-top">
         <div className="container">
           <div className="navbar-brand">
-            <Link
-              to="/"
-              className="navbar-item"
-              style={{ color: "#01070f", letterSpacing: "0.002px" }}
-            >
-              <p className="is-size-6-mobile">IGBOMMIRI GLOBAL RESOURCES</p>
+            <Link to="/" className="navbar-item">
+              <p>IGBOMMIRI</p>
               <img src={IgboMmiri} alt="" />
             </Link>
 

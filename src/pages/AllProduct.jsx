@@ -38,7 +38,7 @@ const AllProduct = () => {
                 </figcaption>
               </figure>
               <Link
-                to="/allproduct"
+                to="https://wa.me/2348147374095"
                 className="button is-responsive is-outlined"
               >
                 Shop Now{" "}
@@ -55,7 +55,7 @@ const AllProduct = () => {
                 </figcaption>
               </figure>
               <Link
-                to="/allproduct"
+                to="https://wa.me/2348147374095"
                 className="button is-responsive  is-outlined"
               >
                 Shop Now{" "}
@@ -71,7 +71,10 @@ const AllProduct = () => {
                   UV Marble sheets
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -85,7 +88,10 @@ const AllProduct = () => {
                   UV Marble sheets
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -99,7 +105,10 @@ const AllProduct = () => {
                   UV Marble sheets
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -121,7 +130,10 @@ const AllProduct = () => {
                   Fluted Panels
                 </figcaption>
               </figure>
-              <Link to="" className="button is-responsive is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-responsive is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -136,7 +148,7 @@ const AllProduct = () => {
                 </figcaption>
               </figure>
               <Link
-                to="/allproduct"
+                to="https://wa.me/2348147374095"
                 className="button is-responsive  is-outlined"
               >
                 Shop Now{" "}
@@ -152,7 +164,10 @@ const AllProduct = () => {
                   Fluted Panels
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -166,7 +181,10 @@ const AllProduct = () => {
                   Fluted Panels
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -180,7 +198,10 @@ const AllProduct = () => {
                   Fluted Panels
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -203,7 +224,7 @@ const AllProduct = () => {
                 </figcaption>
               </figure>
               <Link
-                to="/allproduct"
+                to="https://wa.me/2348147374095"
                 className="button is-responsive is-outlined"
               >
                 Shop Now{" "}
@@ -220,7 +241,7 @@ const AllProduct = () => {
                 </figcaption>
               </figure>
               <Link
-                to="/allproduct"
+                to="https://wa.me/2348147374095"
                 className="button is-responsive  is-outlined"
               >
                 Shop Now{" "}
@@ -236,7 +257,10 @@ const AllProduct = () => {
                   Outdoor WPC Deck Tiles
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -250,7 +274,10 @@ const AllProduct = () => {
                   Outdoor WPC Deck Tiles
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />
@@ -264,7 +291,10 @@ const AllProduct = () => {
                   Outdoor WPC Deck Tiles
                 </figcaption>
               </figure>
-              <Link to="/allproduct" className="button is-outlined">
+              <Link
+                to="https://wa.me/2348147374095"
+                className="button is-outlined"
+              >
                 Shop Now{" "}
                 <span className="ml-2 mt-1">
                   <AiOutlineArrowRight />

@@ -102,6 +102,7 @@ const AnotherProduct = () => {
                     Back Home
                   </Link>
                   <Link
+                    to="https://wa.me/2348147374095"
                     className="button has-text-weight-bold is-responsive"
                     style={{ color: "#01070f" }}
                   >
