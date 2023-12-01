@@ -1,6 +1,6 @@
 import React from "react";
 import "bulma/css/bulma.min.css";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Product = ({ name, id, image }) => {

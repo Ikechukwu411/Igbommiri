@@ -20,8 +20,6 @@ const LastSection = () => {
               <p className="">IGBOMMIRI GLOBAL RESOURCES</p>
               <img src={IGBO} alt="" />
             </Link>
-
-            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
           </div>
           <div className="column">
             <h3 className="has-text-weight-bold">All Products</h3>
@@ -38,6 +36,15 @@ const LastSection = () => {
               <li>
                 <Link to="/allproduct">Outdoor WPC Deck Tiles</Link>
               </li>
+              <li>
+                <Link to="/allproduct">Carbon Crystal Mirror Board</Link>
+              </li>
+              <li>
+                <Link to="/allproduct">Stone Panel</Link>
+              </li>
+              <li>
+                <Link to="/allproduct">UV Matt Sheet</Link>
+              </li>
             </ul>
           </div>
           <div className="column">
@@ -46,7 +53,8 @@ const LastSection = () => {
               <li>
                 <p>
                   Igbommiri Global Resources Better Way And Beyond Standard.
-                  <br></br> No. 1 Aih Majidat Alatishe Str. Okota, Lagos{" "}
+                  <br></br>#1 Prince Joseph Adebayo Street, Parkview Estate by
+                  Kilimanjaro, Ago Palace Way Amuwo,Lagos,Nigeria
                   <br></br> +234 814 737 4095 <br></br>Email:
                   igbommiriglobalresources@gmail.com
                 </p>
@@ -58,22 +66,24 @@ const LastSection = () => {
             <ul>
               <li>
                 <Link to="https://web.facebook.com/people/IgboMmiri-Global-Resources/100089533705424/">
-                  <FaFacebook />
+                  <FaFacebook color="#0E87ED" size={30} />
                 </Link>
               </li>
               <li>
-                <Link>
-                  <FaWhatsappSquare />
+                <Link to="https://wa.me/2348147374095">
+                  <FaWhatsappSquare color="#46C254" size={30} />
                 </Link>
               </li>
               <li>
                 <Link to="https://www.instagram.com/igbommiri_global_resources/?hl=en">
-                  <FaInstagramSquare />
+                  <FaInstagramSquare color="#9C35B1" size={30} />
                 </Link>
               </li>
             </ul>
           </div>
         </div>
+        <p>&copy; 2023 Igbommiri Global Resources. All rights reserved.</p>
+        <p>Designed by Duke</p>
       </footer>
     </React.Fragment>
   );

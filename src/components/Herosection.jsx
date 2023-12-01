@@ -84,18 +84,16 @@ const Herosection = () => {
               </p>
             </div>
             <div className="column">
-              <div className="column">
-                <div className="scroll">
-                  <div className="scroll-container" id="pics">
-                    <img src={image1} alt="" />
-                    <img src={image2} alt="" />
-                    <img src={image3} alt="" />
-                    <img src={image4} alt="" />
-                    <img src={image1} alt="" />
-                    <img src={image2} alt="" />
-                    <img src={image3} alt="" />
-                    <img src={image4} alt="" />
-                  </div>
+              <div className="scroll">
+                <div className="scroll-container" id="pics">
+                  <img src={image1} alt="" />
+                  <img src={image2} alt="" />
+                  <img src={image3} alt="" />
+                  <img src={image4} alt="" />
+                  <img src={image1} alt="" />
+                  <img src={image2} alt="" />
+                  <img src={image3} alt="" />
+                  <img src={image4} alt="" />
                 </div>
               </div>
             </div>

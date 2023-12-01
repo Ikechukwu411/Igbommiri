@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import logo from "../Images/IGBOLOGO.jpg";
 import "../pages/About.css";
+import LastSection from "../components/LastSection";
 
 const About = () => {
   return (
@@ -26,7 +27,10 @@ const About = () => {
               </h3>
               <ul className="is-size-5-desktop">
                 <li>Email: igbommiriglobalresources@gmail.com</li>
-                <li>Address: No. 1 Aih Majidat Alatishe Str. Okota, Lagos</li>
+                <li>
+                  Address: #1 Prince Joseph Adebayo Street, Parkview Estate by
+                  Kilimanjaro, Ago Palace Way Amuwo,Lagos,Nigeria
+                </li>
                 <li> Phone: +234 814 737 4095</li>
               </ul>
             </div>
@@ -36,6 +40,7 @@ const About = () => {
           </div>
         </div>
       </section>{" "}
+      <LastSection />
     </React.Fragment>
   );
 };

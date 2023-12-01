@@ -19,6 +19,7 @@ import Deck3 from "../Images/Deck3.jpg";
 import Deck4 from "../Images/Deck4.jpg";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import LastSection from "../components/LastSection";
 
 const AllProduct = () => {
   return (
@@ -26,7 +27,7 @@ const AllProduct = () => {
       <Navbar />
       <section className="section sixthsection__bg">
         <div className="container">
-          <h2 className="is-size-2 has-text-centered mt-5 mb-5">
+          <h2 className="is-size-2 is-size-4-mobile has-text-centered mt-5 mb-5">
             All Products
           </h2>
           <div className="columns is-mobile">
@@ -310,6 +311,7 @@ const AllProduct = () => {
           </div>
         </div>
       </section>
+      <LastSection />
     </React.Fragment>
   );
 };
